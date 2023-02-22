@@ -108,7 +108,28 @@ h1.entry-title {
     color: black;
 }
 
-.elementor-widget-premium-contact-form .premium-cf7-container label {
-    color: black;
+
+
+.wpcf7-submit {
+    position: absolute;
+    left: 42%;
 }
+
+.message-form-nous-rencontrer {
+    height: 237px;
+}
+
+/* BOUTONS FORMS */ 
+.quantity {
+    display: flex;
+}
+
+.button-quantity {
+    display: flex;
+    flex-direction: column;
+}
+
+/* FORM COMMANDE */
+
+
     

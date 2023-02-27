@@ -19,13 +19,19 @@ BlankSlate is distributed under the terms of the GNU GPL
 */
 
 /* HEADER */
-ul {
+
+
+ul, a {
     list-style-type: none;
     text-decoration: none;
+    color: black;
+}
+
+.menu-item-68 a {
+  color: white;
 }
 
 header {
-    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,11 +39,9 @@ header {
 
 .menu-item {
     padding: 20px;
-    text-decoration: none;
-    color: black;
 }
 
-.menu-item-68 {
+#menu-item-68 {
     display: flex;
     justify-content: center;
     width: 236px;
@@ -48,8 +52,9 @@ header {
 
 .menu {
     display: flex;
+    height: max-content;
     flex-direction: row;
-    border: 1px solid black;
+    margin: 0;
 }
 
 /* Fin HEADER */
@@ -116,7 +121,7 @@ h1.entry-title {
 }
 
 .message-form-nous-rencontrer {
-    height: 237px;
+    height: 237px !important;
 }
 
 /* BOUTONS FORMS */ 
@@ -132,4 +137,91 @@ h1.entry-title {
 /* FORM COMMANDE */
 
 
-    
+
+
+/* BACKGROUND */ 
+
+#post-63 {
+    background-color: #3B8E46; /* background page commander */
+}
+
+#form-commander {
+  background-color: #3B8E46;
+}
+
+
+
+.header {
+    background-color: #ECE2DA;
+}
+
+
+
+/* HOMEPAGE */ 
+
+.gouts-bottom, .gouts-top {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+/* BOUTONS + - PAGE COMMANDER */ 
+
+.total-button {
+  display: flex;
+  height: 56px;
+}
+
+.quantity p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 5px 0 0 5px;
+  width: 51px;
+  background-color: white;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  width: 31px;
+}
+
+.button-plus {
+  height: 50%;
+  color: white;
+  background-color: #DC9F96;
+  border-bottom: 0.5px solid white;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0 5px 0 0;
+}
+
+.button-moins {
+  height: 50%;
+  color: white;
+  background-color: #DC9F96;
+  border-top: 0.5px solid white;
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  border-radius: 0 0 5px 0;
+}
+
+.elementor-size-lg {
+  height: 56px;
+}
+
+
+.custom-logo {
+  padding-left: 25px;
+}

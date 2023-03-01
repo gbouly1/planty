@@ -18,7 +18,15 @@ BlankSlate WordPress Theme © 2011-2023 TidyThemes
 BlankSlate is distributed under the terms of the GNU GPL
 */
 
+
+body {
+  margin: 0;
+}
 /* HEADER */
+
+.custom-logo {
+  padding-left: 25px;
+}
 
 
 ul, a {
@@ -136,7 +144,19 @@ h1.entry-title {
 
 /* FORM COMMANDE */
 
+.contenair-form {
 
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-part-one {
+  padding-right: 50px;
+}
+
+.form-part-two {
+  padding-left: 50px;
+}
 
 
 /* BACKGROUND */ 
@@ -221,7 +241,16 @@ h1.entry-title {
   height: 56px;
 }
 
+.border-middle {
+  border: 0.5px solid rgb(224, 216, 216);
+}
 
-.custom-logo {
-  padding-left: 25px;
+
+
+
+
+
+
+.message-form-nous-rencontrer {
+  z-index: 2;
 }

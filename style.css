@@ -22,6 +22,21 @@ BlankSlate is distributed under the terms of the GNU GPL
 body {
   margin: 0;
 }
+/* MENU MOBILE */
+
+.menu-mobile-container {
+  display: none;
+  }
+  @media (max-width: 810px){
+  .menu-menu-1-container {
+  display: none;
+  }
+  .menu-mobile-container {
+  display: block;
+  }
+  }
+
+
 /* HEADER */
 
 .custom-logo {
@@ -105,6 +120,10 @@ footer {
 h1.entry-title {
     display: none !important;
 }
+.wpcf7-spinner {
+  display: none;
+}
+
 
 /* FORM NOUS CONTACTER */ 
 
@@ -123,9 +142,11 @@ h1.entry-title {
 
 
 
-.wpcf7-submit {
-    position: absolute;
-    left: 42%;
+.wpcf7-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .message-form-nous-rencontrer {
@@ -145,19 +166,36 @@ h1.entry-title {
 /* FORM COMMANDE */
 
 .contenair-form {
-
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 810px){
+  .contenair-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  }
+
 
 .form-part-one {
   padding-right: 50px;
+}
+@media (max-width: 810px){
+  .form-part-one{
+    padding-right: 0;
+  }
 }
 
 .form-part-two {
   padding-left: 50px;
 }
-
+@media (max-width: 810px){
+  .form-part-two {
+  padding-left: 0;
+  }
+  }
 
 /* BACKGROUND */ 
 

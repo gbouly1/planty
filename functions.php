@@ -12,4 +12,9 @@ function planty_theme_support(){
     add_theme_support('title-tag'); // Titre du site
     }
 
+    function extra_setup() {
+        register_nav_menu ('primary mobile', __( 'Navigation Mobile', 'twentythirteen' ));
+        }
+        add_action( 'after_setup_theme', 'extra_setup' );
+
 add_action('after_setup_theme', 'planty_theme_support');

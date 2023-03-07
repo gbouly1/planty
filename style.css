@@ -24,16 +24,8 @@ body {
 }
 /* MENU MOBILE */
 
-.menu-mobile-container {
+.nav-menu {
   display: none;
-  }
-  @media (max-width: 810px){
-  .menu-menu-1-container {
-  display: none;
-  }
-  .menu-mobile-container {
-  display: block;
-  }
   }
 
 

@@ -65,6 +65,10 @@ header {
     background-color: #DC9F96;
 }
 
+#menu-item-69 {
+  padding-right: 40px;
+}
+
 .menu {
     display: flex;
     height: max-content;
@@ -276,11 +280,16 @@ h1.entry-title {
 }
 
 
-
-
-
-
-
 .message-form-nous-rencontrer {
   z-index: 2;
+}
+
+/* Admin-link */
+
+.admin-nav {
+  order: -2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 40px;
 }
